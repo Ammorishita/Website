@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link type="text/css" rel="stylesheet" href="CSS/Styles2.css" media="screen" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="JS/Script.js"></script>
+
+<meta name="viewport" content="width=device-width, intial-scale=1">
+<title>Work in Progress Website</title>
+
+</head>
+<body>
+	<div id="container">
+
+		<div id="banner">
+		<img src="Images\About\Logo.svg" height="135px" class="noclick">
+		</div>
+
+		<div id="nav">		
+			<div id="logo">
+			</div>
+
+			<div id="navlinks">
+				<a>{</a>
+				<a class="highlight" href="Index.html"> Home </a>
+				<a class="highlight" href="About.html"> About </a>
+				<a class="highlight" href="Artworks.html"> Artworks </a>
+				<a class="highlight" href="Game.html"> Game </a>
+				<a>}</a>
+			</div>
+		</div>
+
+		<div id="bodynav">
+				<div id="bodynavsub">
+					<a class="navsub" href="Artworks.html">Graphics</a>	
+					<a class="navsub" href="Illustrations.html">Illustrations</a>	
+					<a class="navsub" href="2D.html">2D</a>
+				</div>
+			</div>
+		<div id="bodyart">
+
+			<div id="contentart">
+					<div id="gallery" onclick="changeImage(event)">
+						<div class="thumbnail">
+							<img src="Images/Illustrations/Sniper Soldier.jpg" alt="Sniper Soliders"/>
+						</div>
+						<div class="thumbnailVertical">
+							<img src="Images/Illustrations/Snow Archer.jpg" alt="Snow Archer"/>
+						</div>
+						<div class="thumbnail">
+							<img src="Images/Illustrations/Four elements of cycling.jpg" alt="Four Elements"/>
+						</div>
+						<div class="thumbnail">
+							<img src="Images/Illustrations/StudentArtProgram.jpg" alt="Student Art Program"/>
+						</div>
+						<div class="thumbnail">
+							<img src="Images/Illustrations/Energy Summoner.jpg" alt="Energy Summoner"/>
+						</div>
+						<div class="thumbnailVertical">
+							<img src="Images/Illustrations/Fox McCloud.jpg" alt="Starfox"/>
+						</div>
+						<div class="thumbnailVertical">
+							<img src="Images/Illustrations/Sith Lord.jpg" alt="Sith Lord"/>
+						</div>
+						<div class="thumbnail">
+							<img src="Images/Illustrations/Reno Cycling.jpg" alt="Reno Cycling"/>
+						</div>
+						<div class="thumbnailVertical">
+							<img src="Images/Illustrations/Universe Girl.jpg" alt="Universe Girl"/>
+						</div>
+					</div>				
+			</div>
+
+
+			<div id="footer">
+			<h4>Copyright 2016 - Alex Morishita</h4>
+			</div>
+		</div>
+
+		<div id="mainBackground">
+			<div id="secondaryContainer">
+			</div>
+			<div id="primaryContainer">
+				<div id="leftButtonContainer">
+					<button onclick="backwards()" id="leftButton"> &lt;</button>
+				</div>
+				<div id="mainImageContainer">
+				<img src="" id="mainImage"/>
+				</div>
+				<div id="rightButtonContainer">
+					<button onclick="forwards()" id="rightButton"> &gt;</button>
+					<button onclick="closeImage()" id="closeButton"> X</button>
+				</div>
+			</div>
+
+			<div id="switchContainer">
+			</div>
+			<div id="slideContainer">
+				<div id="slideshow">				
+					<img class="thumbnailMini" src="Images/Illustrations/Sniper Soldier.jpg" alt="Sniper Soliders"/>	
+					<img class="thumbnailVerticalMini" src="Images/Illustrations/Snow Archer.jpg" alt="Snow Archer"/>
+					<img class="thumbnailMini" src="Images/Illustrations/Four elements of cycling.jpg" alt="Four Elements"/>
+					<img class="thumbnailMini" src="Images/Illustrations/StudentArtProgram.jpg" alt="Student Art Program"/>
+					<img class="thumbnailMini" src="Images/Illustrations/Energy Summoner.jpg" alt="Energy Summoner"/>
+					<img class="thumbnailVerticalMini" src="Images/Illustrations/Fox McCloud.jpg" alt="Starfox"/>
+					<img class="thumbnailVerticalMini" src="Images/Illustrations/Sith Lord.jpg" alt="Sith Lord"/>
+					<img class="thumbnailMini" src="Images/Illustrations/Reno Cycling.jpg" alt="Reno Cycling"/>
+					<img class="thumbnailVerticalMini" src="Images/Illustrations/Universe Girl.jpg" alt="Universe Girl"/>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+        
+</body>
+</html>

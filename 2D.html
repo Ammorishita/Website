@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link type="text/css" rel="stylesheet" href="CSS/Styles2.css" media="screen" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="JS/Script.js"></script>
+
+<meta name="viewport" content="width=device-width, intial-scale=1">
+<title>Work in Progress Website</title>
+
+</head>
+<body>
+	<div id="container">
+
+		<div id="banner">
+		<img src="Images\About\Logo.svg" height="135px" class="noclick">
+		</div>
+
+		<div id="nav">		
+			<div id="logo">
+			</div>
+
+			<div id="navlinks">
+				<a>{</a>
+				<a class="highlight" href="Index.html"> Home </a>
+				<a class="highlight" href="About.html"> About </a>
+				<a class="highlight" href="Artworks.html"> Artworks </a>
+				<a class="highlight" href="Game.html"> Game </a>
+				<a>}</a>
+			</div>
+		</div>
+
+			<div id="bodynav">
+				<div id="bodynavsub">
+						<a class="navsub" href="Artworks.html">Graphics</a>	
+						<a class="navsub" href="Illustrations.html">Illustrations</a>	
+						<a class="navsub" href="2D.html">2D</a>
+				</div>
+			</div>
+
+		<div id="bodyart">
+
+			<div id="content2d">
+					<div id="gallery" onclick="changeImage(event)">
+
+						<h3>Animations</h3>
+
+						<div id="animations">
+							<div class="thumbnail">
+								<img id="animation2ndPlace" src="Images/Animations/2ndplace1.png" alt="Massteroid 2nd Place"/>
+							</div>
+						</div>
+
+						<h3>Game Art</h3>
+
+						<div id="gameAssets">
+							<div id="gameThumbnail" class="thumbnail"><img src="Images/2D/Enzymes.png" alt="Enzymes"></div>
+							<div id="gameThumbnail" class="thumbnail"><img src="Images/2D/lunch panel.jpg" alt="Lunch Panel"></div>
+							<div id="gameThumbnail" class="thumbnailVertical"><img src="Images/2D/Background Silo.jpg" alt="background Silo"></div>
+							<div id="gameThumbnail" class="thumbnail"><img src="Images/2D/Geothermal Background.jpg" alt="Geothermal Background"></div>
+							<div id="gameThumbnail" class="thumbnail"><img src="Images/2D/City Destroyed scene.png" alt="City Destroyed"></div>
+							<div id="gameThumbnail" class="thumbnail"><img src="Images/2D/EarthDestroyed.jpg" alt="Earth Destroyed"></div>
+							<div id="gameThumbnail" class="thumbnail"><img src="Images/2D/Earthwithclouds.jpg" alt="Earth with Clouds"></div>
+							<div id="gameThumbnail" class="thumbnail"><img src="Images/2D/Massteroid Box Art.png" alt="Massteroid Box Art"></div>
+							<div id="gameThumbnail" class="thumbnail"><img src="Images/2D/Massteroid Sprites.png" alt="Massteroid Sprites"></div>
+							
+						</div>				
+					</div>
+				</div>
+			<div id="footer">
+			<h4>Copyright 2016 - Alex Morishita</h4>
+			</div>
+		</div>
+
+		<div id="mainBackground">
+			<div id="secondaryContainer">
+			</div>
+			<div id="primaryContainer">
+				<div id="leftButtonContainer">
+					<button onclick="gameBackwards()" id="leftButton"> &lt;</button>
+				</div>
+				<div id="mainImageContainer">
+				<img src="" id="mainImage"/>
+				</div>
+				<div id="rightButtonContainer">
+					<button onclick="gameForwards()" id="rightButton"> &gt;</button>
+					<button onclick="closeImage()" id="closeButton"> X</button>
+				</div>
+			</div>
+
+			<div id="switchContainer">
+				<button id="play" onclick="replay()">Play</button>
+			</div>
+
+			<div id="slideContainer">
+				<div id="slideshowGame">	
+					<img class="thumbnailMini" src="Images/2D/Enzymes.png" alt="Enzymes">
+					<img class="thumbnailMini" src="Images/2D/lunch panel.jpg" alt="Lunch Panel">
+					<img class="thumbnailVerticalMini" src="Images/2D/Background Silo.jpg" alt="background Silo">
+					<img class="thumbnailMini"  src="Images/2D/Geothermal Background.jpg" alt="Geothermal Background">
+					<img class="thumbnailMini" src="Images/2D/City Destroyed scene.png" alt="City Destroyed">
+					<img class="thumbnailMini" src="Images/2D/EarthDestroyed.jpg" alt="Earth Destroyed">
+					<img class="thumbnailMini" src="Images/2D/Earthwithclouds.jpg" alt="Earth with Clouds">
+					<img class="thumbnailMini" src="Images/2D/Massteroid Box Art.png" alt="Massteroid Box Art">
+					<img class="thumbnailMini" src="Images/2D/Massteroid Sprites.png" alt="Massteroid Sprites">
+				</div>
+			</div>
+		</div>
+
+
+
+        
+</body>
+</html>

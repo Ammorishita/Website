@@ -1,0 +1,610 @@
+
+/*CSS TABLE OF CONTENTS
+	Header/Nav
+	Mainbody
+		-HomePage
+		-AboutPage
+		-ArtworksPage
+		-GamePage
+	Footer
+*/
+
+/* ----------------------------------------- HEADER AND NAVBAR CONTENT -----------------------------------------
+																													*/
+@font-face {
+	font-family: "League";
+	src: url('league.otf');
+}
+#banner {
+	width: 1028px;
+	height: 55px;
+	margin: auto;
+	text-align: left;
+	line-height: 55px;
+	font-size: 1.6em;
+	opacity: 1.0;
+	color: #3399ff;
+}
+#bodynav {
+	width: 1000px;
+	height: 50px;
+	background-color: black;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	display: flex;
+	margin-bottom: 15px;
+}
+#bodynavsub {
+	display: flex;
+	background-color: black;
+	height: 50px;
+	width: auto;
+	margin: auto;
+}
+#bodynavsub a:hover {
+	border: 2px solid white;
+	color: #3399ff;
+}
+#bodynavsub a {
+	text-decoration: none;
+	color: #006bb3;
+	position: relative;
+    font-size: 1em;
+    text-align: center;
+    font-family: Arial black;
+}
+#logo {
+	width: 350px;
+}
+#logo h2 {
+	margin-top: 20px;
+	font-family: Helvetica;
+}
+#nav {
+	width: 1028px;
+	height: 72px;
+	margin: auto;
+	z-index: 2;
+	opacity: 1;
+	text-align: center;
+	display: flex;
+	border-bottom: 5px solid #006bb3;
+	margin-bottom: 20px;
+}
+#navlinks {
+	width: 678px;
+	height: 72px;
+	z-index: 2;
+	text-align: center;
+	font-size: 40px;
+	font-family: Arial;
+	line-height: 60px;
+}
+#navlinks a {
+	display: inline-block;
+	text-decoration: none;
+	color: #3399ff;
+	padding: 5px;
+}
+#navlinks a.highlight:hover {
+	color:#00ccff;
+}
+.navsub {
+	width: 115px;
+	height: auto;
+	background-color: black;
+	margin: 0px 5px;
+	line-height: 50px;
+	border: 2px solid #3399ff;
+}
+.navsub2 {
+	border: 2px solid yellow;
+}
+#navsubabout {
+	display: flex;
+	background-color: #3399ff;
+	width: auto;
+	height: 50px;
+	margin: auto;
+}
+img:hover {
+	cursor: pointer;
+}
+/* --------------------------------------------- MAIN BODY CONTENT ---------------------------------------------
+																													*/
+body {
+	background-color: black;
+}
+#body {
+	width: 1020px;
+	height: 516px;
+	margin: auto;
+	background-color: black;
+	text-align: center;
+	border-left: 4px solid #006bb3;
+	border-right: 4px solid #006bb3;
+	position: relative;
+	opacity: 1.0;
+	display: flex;
+	flex-wrap: wrap;
+}
+#bodyart {
+	width: 1020px;
+	height: 516px;
+	margin: auto;
+	background-color: black;
+	text-align: center;
+	position: relative;
+	opacity: 1.0;
+	display: flex;
+	flex-wrap: wrap;
+}
+#container {
+	background-color: black;
+}
+#content {
+	width: 980px;
+	height: 450px;
+	background-color: #006bb3;
+	text-align: center;
+	margin: 0px auto;
+	position: relative;
+	padding: 10px 0px 10px 0px;
+	overflow: auto;
+	display: flex;
+}
+#contentart {
+	width: 980px;
+	height: 450px;
+	background-color: black;
+	text-align: center;
+	margin: 0px auto;
+	position: relative;
+	padding: 10px 0px 10px 0px;
+	overflow: auto;
+	display: flex;
+}
+#content2d {
+	width: 1028px;
+	background-color: black;
+	text-align: center;
+	margin: 0px auto;
+	position: relative;
+	padding: 10px 0px 10px 0px;
+	overflow: auto;
+	display: flex;
+}
+#content2 {
+	width: 1000px;
+	height: 490px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #006bb3;
+	text-align: center;
+	margin: 75px 14px;
+	position: absolute;
+	z-index: 1;
+	overflow: auto;
+	padding: 10px 0px 10px 0px;
+}
+#content img {
+	margin: auto;
+}
+/* ------------------- ----------------HOME CONTENT--------------------------------------------*/
+.archive {
+	background-color: white;
+	text-align: center;
+    padding: 20px;
+    border:1px solid red;
+    display: inline-block;
+	padding: 10px;
+	margin: 0px 5px;
+	border-radius: 5px;
+}
+/* ------------------------------------ABOUT CONTENT-------------------------------------------*/
+#about {
+	width: 750px;
+	height: 505px;
+	position: relative;
+	margin: auto;
+	background-image: url("../Images/About/About Background2.svg");
+	background-size: 750px;
+	color: white;
+	top: px;
+}
+.aboutheader {
+	width: 750px;
+	height: 45px;
+	position: relative;
+	margin: auto;
+	background-color: black;
+	color: white;
+	margin-bottom: 10px;
+}
+.aboutheader p {
+	 font-family: league;
+	 font-size: 25px;
+	 position: relative;
+	 top: -35%;
+}
+.button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+#contact {
+	width: 600px;
+	height: 480px;
+	background-color: black;
+	margin: auto;
+	border-top: 3px solid #006bb3;
+	border-bottom: 3px solid #006bb3;
+}
+#resume {
+	width: 600px;
+	height: auto;
+	background-color: black;
+	position: relative;
+	margin: auto;
+	color: #3399ff;
+	border-top: 3px solid #006bb3;
+	border-bottom: 3px solid #006bb3;
+}
+#resume a {
+	color: #3399ff;
+}
+.noclick {
+	pointer-events: none;
+}
+#skills {
+	background-color: black;
+}
+#skillLeveL > li {
+	display: inline-block;
+}
+#skills > ul {
+	list-style-type: none; /*to remove bullets*/
+    text-align: center;
+    padding: 20px;
+}
+#skills > ul > li {
+	display: inline-block;
+	padding: 10px;
+	margin: 5px 5px;
+	color: white;
+}
+#skillLevel > li {
+	display: inline;
+	margin: 0px 20px;
+	padding: 5px;
+	color: white;
+}
+#skillsContainer {
+	width: 600px;
+	height: auto;
+}
+.speechbubble {
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	background-color: #006bb3;
+	position: absolute;
+	border: 2px solid black;
+}
+ul > li {
+	text-align: left;
+}
+::-webkit-scrollbar {
+      width: 15px;
+} 
+::-webkit-scrollbar-thumb {
+      background-color: #3399ff; 
+} /* this will style the thumb, ignoring the track */
+ 
+::-webkit-scrollbar-button {
+      background-color: #003d99;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+::-webkit-scrollbar-corner {
+      background-color: black;
+}
+/* ------------------------------------------ARTWORKS CONTENT----------------------------------------------*/
+#animations {
+	width: 1000px;
+	background-color: black;
+}
+#artworks {
+	background-color: #006bb3;
+	width: 1000px;
+	margin: auto;
+}
+#closeButton {
+	width: 45px;
+	height: 45px;
+	background-color: black;
+	color: #00bfff;
+	border: 2px solid #006bb3;
+	font-size: 2em;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+     -webkit-transform: translate(-50%,0%);
+    -ms-transform: translate(-50%,0%);
+    transform: translate(-50%,0%);
+}
+#gameAssets {
+	margin: auto;
+	width: auto;
+	background-color: black;
+}
+#gallery {
+	margin: auto;
+}
+#gallery h3 {
+	background-color: #3399ff;
+}
+img:nth-of-type() {
+	border: 5px solid white;
+}
+#leftButtonContainer {
+	width: 50px;
+	height: 530px;
+	background-color: black;
+}
+#leftButton {
+	width: 45px;
+	height: 45px;
+	background-color: black;
+	color: #00bfff;
+	border: 2px solid #006bb3;
+	font-size: 2em;
+	top: 50%;
+    left: 50%;
+    position: relative;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+#mainBackground {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	display: none;
+	background-color: black;
+}
+#mainBackgroundAnimation {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:1;
+	display:none;
+	flex-wrap: wrap;
+}
+#mainImage {
+	background-color: white;
+	height: auto;
+	width: auto;
+	max-width: 720px;
+	max-height: 500px;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+#mainImageContainer {
+	width: 918px;
+	height: 520px;
+	background-color: black;
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 4px solid #006bb3;
+}
+#myAnimation {
+	margin: auto;
+	height: 200px;
+	width: 400px;
+	background-color: black;
+}
+#primaryContainer {
+	width: 1028px;
+	height: 530px;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	flex-wrap: nowrap;
+}
+#rightButtonContainer {
+	width: 50px;
+	height: 530px;
+	background-color: black;
+	float: right;
+	position: relative;
+}
+#rightButton {
+	width: 45px;
+	height: 45px;
+	background-color: black;
+	color: #00bfff;
+	border: 2px solid #006bb3;
+	font-size: 2em;
+	top: 50%;
+    left: 50%;
+    position: relative;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+#secondaryContainer {
+	background-color: black;
+	width: 1028px;
+	height: 130px;
+	opacity: .5;
+	margin: auto;
+	clear: both;
+}
+#secondaryImage {
+ 	height: auto;
+ 	max-height: 120px;
+ 	max-width: 120px;
+ 	width: auto;
+ 	opacity: 1;
+ 	border: 5px solid black;
+ 	position: relative;
+	left: 50%;
+	top: 50%;
+	z-index: 
+	-webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+#slideContainer {
+	background-color: black;
+	width: 1028px;
+	height: 83px;
+	margin: auto;
+	clear: both;
+	text-align: center;
+	margin-top: 15px;
+}
+#slideshow,#slideshowGame,#slideshowGraphics {
+ 	height: 88px;
+ 	max-height: 88px;
+ 	max-width: 1028px;
+ 	width: auto;
+ 	opacity: 1;
+ 	background-color: black;
+ 	border-top: 2px solid #006bb3;
+	border-bottom: 2px solid #006bb3;
+ 	position: relative;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+#switchContainer {
+	background-color: black;
+	width: 1028px;
+	height: 65px;
+	margin: auto;
+	clear: both;
+	text-align: center;
+}
+#switchButton,#play {
+	width: 150px;
+	height: 50px;
+	background-color: black;
+	color: #00bfff;
+	position: relative;
+	border: 2px solid #006bb3;
+	z-index: 3;
+	font-size: 2em;
+	top: 50%;
+	visibility: hidden;
+	-webkit-transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+    transform: translate(0%,-50%);
+}
+.thumbnail {
+  position: relative;
+  width: 180px;
+  height: 150px;
+  overflow: hidden;
+  border: 5px solid black;
+  display: inline-block;
+  background-color: black;
+}
+.thumbnailMini {
+  position: relative;
+  width:90px;
+  height: 75px;
+  overflow: hidden;
+  border: 4px solid black;
+  display:inline-block;
+}
+.thumbnailVertical {
+  position: relative;
+  width: 180px;
+  height: 150px;
+  overflow: hidden;
+  border: 5px solid black;
+  display:inline-block;
+  background-color: black;
+}
+.thumbnailVerticalMini {
+  position: relative;
+  width:90px;
+  height: 75px;
+  overflow: hidden;
+  border: 4px solid black;
+  display:inline-block;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnailMini img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnailVertical img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  height: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnailVerticalMini img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  height: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.selected {
+	border: 5px solid #3399ff;
+}
+/* ---------------------------------------------GAME CONTENT-------------------------------------*/
+
+/* --------------------------------------------- FOOTER CONTENT ------------------------------------------*/
+#footer {
+	width: 980px;
+	height: 25px;
+	background-color: #3399ff;
+	text-align: center;
+	margin: 0px auto;
+	position: relative;
+	top: 10px;
+}
+#footer > h4 {
+	margin-top: 5px;
+	color: black;
+	font-family: Arial;
+	font-size: 12px;
+}
